@@ -1,9 +1,9 @@
 import React from "react";
-import vector from '../assets/vector.jpg';
+import vector from "../assets/vector.jpg";
 function Home() {
-    return (
-        <>
-            <div id="home" className="flex px-5 py-32 bg-gray-100 text-gray-900 justify-center">
+  return (
+    <>
+      {/*  <div id="home" className="flex px-5 py-32 bg-gray-100 text-gray-900 justify-center">
                 <div className="flex flex-col">
                 <h1 className="text-4xl w-1/2">Hi,<br/>Im Deiveegaponmari M
                <p className="text-2xl">I am MERN Stack Developer</p>
@@ -15,8 +15,48 @@ function Home() {
                 </div>
                
                <img src={vector} alt="animatedvectorImage" className="w-1/3"/>
-            </div>
-        </>
-    )
+            </div> */}
+      <section
+        id="home"
+        className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-24 bg-gray-50 text-gray-900"
+      >
+        {/* Left Side Text */}
+        <div className="max-w-xl space-y-6">
+          <h2 className="text-lg text-gray-600">👋 Hello, I'm</h2>
+
+          <h1 className="text-5xl font-extrabold text-gray-900 leading-tight">
+            Deiveegaponmari M
+          </h1>
+
+          <p className="text-2xl text-teal-600 font-semibold">
+            MERN Stack Developer
+          </p>
+
+          <p className="text-gray-600">
+            Passionate about building scalable web applications and interactive
+            user experiences using MongoDB, Express, React, and Node.js.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex gap-4">
+            <button className="px-6 py-3 bg-teal-600 text-white rounded-lg font-medium hover:bg-teal-700 shadow-md transition duration-300">
+              Download Resume
+            </button>
+
+            <button className="px-6 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-medium hover:bg-teal-600 hover:text-white shadow-md transition duration-300">
+              View Resume
+            </button>
+          </div>
+        </div>
+
+        {/* Right Side Image */}
+        <img
+          src={vector}
+          alt="Profile Illustration"
+          className="mt-10 md:mt-0 w-72 md:w-[380px] drop-shadow-lg rounded-lg"
+        />
+      </section>
+    </>
+  );
 }
 export default Home;
