@@ -31,9 +31,9 @@ function Card() {
             title: "K Selvam Sounds & Hollow blocks App",
             description: "K Selvam Sounds & Hollow Blocks Company is a local manufacturing and service-based business offering high-quality hollow blocks for construction and professional sound system services for events. The platform allows the business to manage customer inquiries, display products/services, and improve digital presence through a clean, responsive user interface.",
             language: ["HTML,CSS,Tailwind CSS,React", "NodeJs", "ExpressJs", "MongoDb"],
-            frontendlink: "https://github.com/deiveegaponmari/primary-school",
-            backendcode: "https://github.com/deiveegaponmari/backend-school",
-            demo: "https://myprimaryschoolapp.netlify.app/"
+            frontendlink: "https://github.com/deiveegaponmari/kselvam_company",
+            backendcode: "https://github.com/deiveegaponmari/backend-kselvam_company",
+            demo: "https://kselvam.netlify.app/"
         },
         {
             id: 4,
