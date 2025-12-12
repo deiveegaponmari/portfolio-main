@@ -50,11 +50,13 @@ function Home() {
         </div>
 
         {/* Right Side Image */}
-        <img
-          src={vector}
-          alt="Profile Illustration"
-          className="mt-10 md:mt-0 w-72 md:w-[380px] drop-shadow-lg rounded-lg"
-        />
+        <div className="relative">
+          <div className="absolute inset-0 bg-teal-100 blur-2xl rounded-xl opacity-40"></div>
+          <img
+            src="https://res.cloudinary.com/djlxdttvr/image/upload/v1765544765/ChatGPT_Image_Dec_12_2025_06_35_07_PM_loh85i.png"
+            className="relative mt-10 md:mt-0 w-64 sm:w-72 md:w-[420px] lg:w-[480px] drop-shadow-xl rounded-xl"
+          />
+        </div>
       </section>
     </>
   );
