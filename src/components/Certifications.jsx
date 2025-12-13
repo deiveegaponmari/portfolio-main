@@ -5,29 +5,54 @@ function Certifications() {
   const certificates = [
     {
       id: 1,
-      title: "Full Stack MERN Developer",
-      platform: "GUVI",
-      year: "2024",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Guvi-logo.png",
-      link: "https://www.guvi.in/verify/yourcertificate",
+      title: "Software Web Develoment & Android Application Development",
+      platform: "UIT Educational Trust",
+      year: "2022",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606063/images-uit_sk9vwr.jpg",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546502/WhatsApp_Image_2025-12-11_at_13.39.17_3b64184d_dwsj1o.jpg",
     },
-    {
+      {
       id: 2,
-      title: "React Frontend Development",
-      platform: "Udemy",
-      year: "2023",
-      logo: "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
-      link: "https://www.udemy.com/certificate/yourlink",
+      title: "Android Application Development",
+      platform: "Talent Zone",
+      year: "2017",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606064/talent_zone_lsubow.png",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546435/WhatsApp_Image_2025-12-11_at_13.39.14_68bbc4d0_dyekbb.jpg",
+    },
+      {
+      id: 3,
+      title: "Inplant Training Programme",
+      platform: "SSPR Software Services",
+      year: "2017",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606064/sspr_ej8rlw.png",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546451/WhatsApp_Image_2025-12-11_at_13.39.15_2a51f526_bvbpvk.jpg",
     },
     {
-      id: 3,
-      title: "MongoDB Database Essentials",
-      platform: "Coursera",
-      year: "2023",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Coursera-Logo.png",
-      link: "https://coursera.org/verify/yourcertificate",
+      id: 4,
+      title: "Soft Skill Development Program",
+      platform: "SPMR TECHNOS",
+      year: "2016",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606065/spm_ueotai.png",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546467/WhatsApp_Image_2025-12-11_at_13.39.16_490c6af4_kz8jis.jpg",
     },
-  ];
+      {
+      id: 5,
+      title: "Technical Symposium -Paper Presentation & Quiz",
+      platform: "Tech Cruz",
+      year: "2015",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606064/sym2_kl1f90.jpg",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546410/WhatsApp_Image_2025-12-11_at_13.39.13_4faacf88_r4s3dl.jpg",
+    },
+     
+    {
+      id: 6,
+      title: "Diploma In Computer Application",
+      platform: "Easy Computer Education",
+      year: "2013",
+      logo: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765606064/computer_vv2f58.jpg",
+      link: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765546482/WhatsApp_Image_2025-12-11_at_13.39.17_b1362f96_xoftdr.jpg",
+    },
+   ];
   return (
     <div id="certifications" className="bg-gray-100 py-12 px-6">
       <h1 className="text-center text-4xl font-bold mb-10">Certifications</h1>
