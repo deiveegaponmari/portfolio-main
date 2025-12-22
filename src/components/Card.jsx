@@ -7,33 +7,33 @@ function Card() {
     const data = [
         {
             id: 1,
-            image: "https://res.cloudinary.com/djlxdttvr/image/upload/v1764570015/boliviainteligente-IPIwk-Ox1A0-unsplash_c9dn2n.jpg",
-            title: "Social Media Platform",
-            description: "Developed a full-stack social media platform with real-time chat, posts, comments, likes, and friend requests using React, Node.js, Express, and MongoDB.",
-            language: ["HTML,CSS,REACT","NodeJs", "ExpressJs", "MongoDb"],
-            frontendlink: "https://github.com/deiveegaponmari/facebook",
-            backendcode: "https://github.com/deiveegaponmari/facebook-backend",
-            demo: "https://myfirst-socialplatform.netlify.app/"
-        },
-         {
-            id: 2,
             image: "https://res.cloudinary.com/djlxdttvr/image/upload/v1764570032/church-of-the-king-j9jZSqfH5YI-unsplash_jcuwet.jpg",
             title: "Sri Nataraja School App",
-            description: "A feature-rich school management application designed for Sri Nataraja School. The app includes real-time announcements, photo and video uploads, and a feedback module for better communication between school and users. The system is fully responsive and built using React for the frontend and Node.js, Express, and MongoDB for backend and database operations.",
+            description: "Developed a complete Full Stack MERN school management application for a real educational institution. Implemented role-based features including real-time announcements, photo and video uploads, feedback management, and secure REST APIs. Built responsive frontend using React and Tailwind CSS, backend services using Node.js and Express, and MongoDB for persistent data storage. Deployed frontend and backend independently for production use.",
             language: ["HTML,CSS,Tailwind CSS,React", "NodeJs", "ExpressJs", "MongoDb"],
             frontendlink: "https://github.com/deiveegaponmari/primary-school",
             backendcode: "https://github.com/deiveegaponmari/backend-school",
             demo: "https://myprimaryschoolapp.netlify.app/"
         },
          {
-            id: 3,
+            id: 2,
             image: "https://res.cloudinary.com/djlxdttvr/image/upload/v1765275679/xt7-core-Qj7qeM7A0Xs-unsplash_wq6v2x.jpg",
             title: "K Selvam Sounds & Hollow blocks App",
-            description: "K Selvam Sounds & Hollow Blocks Company is a local manufacturing and service-based business offering high-quality hollow blocks for construction and professional sound system services for events. The platform allows the business to manage customer inquiries, display products/services, and improve digital presence through a clean, responsive user interface.",
+            description: "Designed and developed a real-world Full Stack MERN application for a local business to manage customer inquiries and services digitally. Features include customer inquiry forms, admin dashboard for viewing and managing inquiries, RESTful API architecture, MongoDB database integration, and JWT-based authentication for secure data access. The application is fully responsive and deployed for live business usage.",
             language: ["HTML,CSS,Tailwind CSS,React", "NodeJs", "ExpressJs", "MongoDb"],
             frontendlink: "https://github.com/deiveegaponmari/kselvam_company",
             backendcode: "https://github.com/deiveegaponmari/backend-kselvam_company",
             demo: "https://kselvam.netlify.app/"
+        },
+          {
+            id: 3,
+            image: "https://res.cloudinary.com/djlxdttvr/image/upload/v1764570015/boliviainteligente-IPIwk-Ox1A0-unsplash_c9dn2n.jpg",
+            title: "Social Media Platform",
+            description: "Built an advanced Full Stack MERN social media platform supporting user authentication, real-time chat, post creation, comments, likes, and friend request functionality. Implemented REST APIs and Socket.io for real-time features, MongoDB for data persistence, and React for dynamic UI rendering. Designed scalable backend architecture using Node.js and Express with secure user authentication.",
+            language: ["HTML,CSS,REACT","NodeJs", "ExpressJs", "MongoDb"],
+            frontendlink: "https://github.com/deiveegaponmari/facebook",
+            backendcode: "https://github.com/deiveegaponmari/facebook-backend",
+            demo: "https://myfirst-socialplatform.netlify.app/"
         },
         {
             id: 4,
