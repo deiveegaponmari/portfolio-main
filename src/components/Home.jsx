@@ -41,7 +41,7 @@ function Home() {
           {/* Buttons */}
           <div className="flex gap-4">
             <a
-              href="/Resume/Deiveegaponmari_MERN_Developer_Resume.pdf"
+              href="/Resume/Deiveegaponmari_MERN_Developer.pdf"
               download="Deiveegaponmari_MERN_Developer_Resume.pdf"
               className="px-6 py-3 bg-teal-600 text-white rounded-lg font-medium
                hover:bg-teal-700 shadow-md transition duration-300"
@@ -50,7 +50,7 @@ function Home() {
             </a>
 
             <a
-              href="/Resume/Deiveegaponmari_MERN_Developer_Resume.pdf"
+              href="/Resume/Deiveegaponmari_MERN_Developer.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-medium
